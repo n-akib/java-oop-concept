@@ -11,6 +11,8 @@ public class Dog extends Animal {
     static class InnerClass{
         String txt = "This text shows that, inner class is working.";
     }
+
+    //outer class access from inner class
     class InClass{
         public String accessOuterClass(){
             return txt2;

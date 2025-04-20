@@ -36,6 +36,11 @@ public class Main {
         abs.abstractMethod();
         abs.mthd();
 
+        Pig myPig = new Pig();
+        myPig.animalSound();
+        myPig.sleep();
+        myPig.myOtherMethod();
+
         //recursion
         int result = sum(5, 10);
         System.out.println(result);
@@ -48,4 +53,5 @@ public class Main {
         }
 
     }
+
 }
