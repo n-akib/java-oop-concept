@@ -41,6 +41,19 @@ public class Main {
         myPig.sleep();
         myPig.myOtherMethod();
 
+        Level l = Level.MEDIUM;
+        System.out.println(l.getDescription());
+
+/*
+        Level level = Level.HIGH;
+        Level level2 = Level.LOW;
+        if(level == Level.HIGH){
+            System.out.println("Level is High");
+        }
+        else {
+            System.out.println("Level unknown");
+        }*/
+
         //recursion
         int result = sum(5, 10);
         System.out.println(result);
